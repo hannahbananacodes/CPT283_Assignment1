@@ -37,9 +37,9 @@ echo '<h1>' . TABLE_HEADER . '</h1>';
 echo "
 <table>
     <tr>
-        <td style=width:20%><h2>Temperature</h2></td>
-        <td style=width:20%><h2>Relative Humidity</h2></td>
-        <td style=width:20%><h2>Heat Index</h2></td>
+        <td><h2>Temperature</h2></td>
+        <td><h2>Relative Humidity</h2></td>
+        <td><h2>Feels Like</h2></td>
     </tr>
     <tr>
         <td><h2>$temperature</h2></td>

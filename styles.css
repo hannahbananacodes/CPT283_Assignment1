@@ -1,9 +1,15 @@
+/* CPT 283 Program 1 - styles.css */
+/* Created by Hannah Holmes */
+/* The purpose of this stylesheet is to add style to the heat index calculator page. */
+/* Created 22 Aug 2023 */
+
 body {
     background-image: url(flame.jpg);
     color: white;
     background-size: 100vw;
     background-repeat: no-repeat;
     background-color: #241e20;
+    font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
 }
 
 a {
@@ -14,4 +20,15 @@ footer {
     font-size: 0.75rem;
     position: absolute;
     bottom: 5px;
+}
+
+table {
+    width: 100%;
+    background-color:rgba(255, 148, 112, 0.5);
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
 }
