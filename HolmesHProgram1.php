@@ -31,7 +31,7 @@ $heatIndex =  -42.379 + (2.04901523 * $temperature) + (10.14333127 * $relativeHu
  (.00000199 * $temperature * $temperature * $relativeHumidity * $relativeHumidity);
 
  // Print table header:
-echo '<h1>' . TABLE_HEADER . '</h1>';
+echo "<h1>" . TABLE_HEADER . "</h1>";
 
 // Print table with variables and the result of calculation:
 echo "
@@ -47,10 +47,11 @@ echo "
         <td><h2>$heatIndex</h2></td>
     </tr>
 </table>
-"
+";
 ?>
+<!-- Include credit for background image -->
 <footer>
-    image credit: <a href="https://unsplash.com/photos/XOQJa4OC8P0">Paul Bulai</a> on <a href="https://unsplash.com">Unsplash</a>
+    image credit: <a href="https://unsplash.com/photos/XOQJa4OC8P0" target="_blank">Paul Bulai</a> on <a href="https://unsplash.com" target="_blank">Unsplash</a>
 </footer>
 </body>
 </html>
